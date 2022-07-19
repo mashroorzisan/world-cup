@@ -1,0 +1,95 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;600;700;800&family=Josefin+Sans&family=Manrope:wght@400;700&family=Montserrat:wght@300;500;600&family=Poppins:wght@200;400;500;600&display=swap');
+
+body {
+    /* ////////////////////////////// */
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* //////////////////////////////// */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 140px 0px 140px;
+
+}
+
+/*-- header --*/
+.back {
+    width: 1320px;
+    height: 646px;
+    border-radius: 30px;
+    background-color: #161616;
+    display: flex;
+    position: relative
+}
+
+.banner-info {
+    color: white;
+    width: 50%;
+    /* border: 1px solid white; */
+    padding: 110px 0 110px 110px;
+
+}
+
+.banner-info h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.banner-info p {
+    margin-top: 20px;
+    width: 80%;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.banner-image {
+    width: 50%;
+    /* border: 1px solid white; */
+    /* padding: 110px; */
+}
+
+.banner-image img {
+    position: absolute;
+    bottom: 0;
+    height: 613px;
+    width: 581px;
+}
+
+.button {
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.fa-play {
+    margin-left: 10px;
+}
+
+/*//////////////////////////
+        main section
+////////////////////////// */
+main {
+    display: grid;
+}
+
+.nav {
+    border: 1px solid blue;
+}
+
+.blog {
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
