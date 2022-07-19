@@ -93,3 +93,8 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+.blog-info {
+    display: flex;
+    justify-content: space-between;
+}
