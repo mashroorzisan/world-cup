@@ -90,15 +90,16 @@ body {
 main {
     display: flex;
     width: 1320px;
-
+    margin-bottom: 130px;
 }
 
+/*////////////// blogs///////////// */
 
 .blogs {
     display: grid;
     gap: 24px;
     grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 130px;
+    /* margin-bottom: 130px; */
 }
 
 .blog {
@@ -107,20 +108,30 @@ main {
     display: flex;
     flex-direction: column;
     width: 312px;
-    height: 370px;
+    height: 242px;
+    align-items: center;
+    justify-content: center;
 }
 
+.flags span {
+    font-weight: 700;
+    font-size: larger;
+}
 
-.blog-info>span {
+.blog-info p {
+    color: #4D4D4D;
+}
+
+/* .blog-info>span {
     margin-top: 30px;
     border: 2px solid grey;
     width: 100px;
     height: 30px;
     text-align: center;
     padding: 5px 15px;
-}
+} */
 
-.blog-info {
+/* .blog-info {
     padding: 20px;
     margin: 0;
     padding-bottom: 0;
@@ -134,9 +145,9 @@ main {
 .foot {
     display: flex;
     justify-content: flex-start;
-}
+} */
 
-
+/* ///////////////////////blogs///////////////////////// */
 .nav-options {
     margin-right: 24px;
     padding: 30px;
@@ -217,3 +228,7 @@ main {
     padding: 30px;
 
 }
+
+/* /now it's time for some fun/ */
+/*------------------------------------------------------               media query
+------------------------------------------------------- */
