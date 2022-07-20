@@ -255,10 +255,55 @@ main {
 
 }
 
+/* ///////////hovers//////////// */
+.link:hover {
+    background-color: rgb(215, 215, 215);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15p
+}
+
+.special:hover {
+    background-color: red;
+    box-shadow: rgba(255, 7, 7, 0.35) 0px 5px 15px
+}
+
+
+.blog-info span:hover {
+    background-color: darkgray;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.blog:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* ////////////////////////////// */
+/* //////////////////////media query///////////////// */
 @media screen and (max-width:768px) {
 
     .back {
         width: 100%;
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+    }
+
+    .banner-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        padding-top: 50px;
+
+    }
+
+    .banner-image {
+        padding: 0;
+        width: 30%;
+        margin: 0;
     }
 
     main {
@@ -292,7 +337,6 @@ main {
 
 }
 
-/* ////////////////////////////// */
 @media screen and (min-width:769px)and (max-width:1136px) {
 
 
