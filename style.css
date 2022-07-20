@@ -41,8 +41,9 @@ body {
     width: 50%;
     /* border: 1px solid white; */
     padding: 110px 0 110px 110px;
-    overflow-y: scroll;
+    /* text-overflow: clip; */
     overflow-y: hidden;
+
 
 }
 
